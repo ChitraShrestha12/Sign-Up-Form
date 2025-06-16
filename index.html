@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="app-container">
+      <section class="info">
+        <p>Learn to code by watching others</p>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="form">
+        <div class="trial">
+          <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+        </div>
+        <form novalidate>
+          <input type="text" id="fname" placeholder="First Name" name="fname" />
+          <p class="fname-error">First Name cannot be empty</p>
+          <input type="text" id="lname" placeholder="Last Name" name="lname" />
+          <p class="lname-error">Last Name cannot  be empty</p>
+          <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            name="email"
+          />
+          <p class="email-error">Looks like this is not email</p>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            name="password"
+          />
+          <p class="password-error">Password caannot be empty</p>
+          <button>CLAIM YOUR FREE TRIAL</button>
+          <p class="term">
+            By clicking the button, you are agreeing to our
+            &nbsp;<span>Terms and Services</span>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
